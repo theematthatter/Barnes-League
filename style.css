@@ -1,0 +1,45 @@
+body {
+    height: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("https://cdn.cybergolf.com/images/303/_SAM1136.JPG");
+    background-size: 100%;
+
+
+}
+
+header {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to top, rgba(0, 0, 139), lightblue);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Teams {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(62, 60, 60);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
+
+
+
+.team-groups {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+#Weeks {
+
+    margin-top: 30px;
+    margin-left: 200px;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
