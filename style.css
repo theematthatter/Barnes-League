@@ -34,7 +34,7 @@ header {
     gap: 60px;
 }
 
-#Weeks {
+/*#Weeks {
 
     margin-top: 30px;
     margin-left: 200px;
@@ -43,10 +43,48 @@ header {
     border-radius: 5px;
     padding: 10px;
 }
+*/
+.section {
+    padding: 48px 16px;
+}
 
-#schedule {
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
     text-align: center;
-    font-size: 35px;
-    color: rgb(46, 45, 45);
+    margin-bottom: 20px;
+}
 
+.table-wrap {
+    overflow-x: auto;
+    border-radius: 12px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 720px;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid rgba(22, 22, 22, 0.5);
+    white-space: nowrap;
+}
+
+.schedule-table thead th {
+    font-weight: 700;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background: rgba(243, 238, 238, 0.05);
+}
+
+.schedule-table tbody tr:hover {
+    background: rgba(89, 7, 137, 0.1);
 }
