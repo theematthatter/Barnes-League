@@ -16,6 +16,7 @@ header {
 }
 
 #Teams {
+    text-decoration: underline;
     text-align: center;
     font-size: 35px;
     color: rgb(62, 60, 60);
@@ -46,6 +47,7 @@ header {
 */
 .section {
     padding: 48px 16px;
+
 }
 
 .container {
@@ -56,6 +58,8 @@ header {
 .section-title {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 35px;
+    text-decoration: underline;
 }
 
 .table-wrap {
@@ -79,12 +83,27 @@ header {
 
 .schedule-table thead th {
     font-weight: 700;
+    font-size: 30px;
 }
 
-.schedule-table tbody tr:nth-child(even) {
+.schedule-table tbody tr {
     background: rgba(243, 238, 238, 0.05);
+    font-size: 25px;
 }
 
 .schedule-table tbody tr:hover {
-    background: rgba(89, 7, 137, 0.1);
+    background: rgba(11, 158, 232, 0.923);
+}
+
+.information {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+
+#intro {
+    text-align: center;
+    font-size: 25px;
+
 }
