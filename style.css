@@ -19,7 +19,7 @@ header {
     text-decoration: underline;
     text-align: center;
     font-size: 40px;
-    color: rgb(62, 60, 60);
+    color: rgb(0, 0, 0);
     padding: 10px;
     border-radius: 50px;
     margin-top: 30px;
@@ -82,7 +82,7 @@ header {
 }
 
 .schedule-table thead th {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 30px;
 }
 
@@ -92,15 +92,15 @@ header {
 }
 
 .schedule-table tbody tr.red:hover {
-    background: rgba(255, 0, 0, 0.3);
+    background: rgba(255, 0, 0, 0.125);
 }
 
 .schedule-table tbody tr.White:hover {
-    background: rgba(90, 89, 89, 0.3);
+    background: rgba(90, 89, 89, 0.125);
 }
 
 .schedule-table tbody tr.blue:hover {
-    background: rgba(9, 19, 213, 0.3);
+    background: rgba(9, 19, 213, 0.125);
 }
 
 .information {
